@@ -185,7 +185,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300404621",
           "type": "Type",
-          "_label": "PIA Project Number"
+          "_label": "PIA Identifier"
         }
       ]
     }

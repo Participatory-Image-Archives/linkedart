@@ -5,9 +5,9 @@
   "_label": "[Menschenmasse und Propellerflugzeuge",
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300128343", 
+      "id": "http://vocab.getty.edu/aat/300128359", 
       "type": "Type", 
-      "_label": "Black and White Negative"
+      "_label": "Black and White Photograph"
     }
   ],
   "dimension": [
@@ -151,18 +151,6 @@
           "id": "http://vocab.getty.edu/aat/300212616",
           "type": "Type",
           "_label": "Airplanes"
-        }
-      ]
-    }
-  ],
-  "subject_to": [
-    {
-      "type": "Right",
-      "classified_as": [
-        {
-          "id": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-          "type": "Type",
-          "_label": "Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)"
         }
       ]
     }

@@ -141,7 +141,7 @@
             "unit": {
               "id": "http://vocab.getty.edu/aat/300379098",
               "type": "MeasurementUnit",
-              "_label": "Centimeters"
+              "_label": "Centimetres"
             }
           },
           {
@@ -157,7 +157,7 @@
             "unit": {
               "id": "http://vocab.getty.edu/aat/300379098",
               "type": "MeasurementUnit",
-              "_label": "Centimeters"
+              "_label": "Centimetres"
             }
           }
         ],

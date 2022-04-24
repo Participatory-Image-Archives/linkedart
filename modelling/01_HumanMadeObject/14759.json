@@ -55,7 +55,14 @@
     {
       "id": "https://linkedart.participatory-archives.ch/collection/SGV/12",
       "type": "Set",
-      "_label": "SGV_12 (Ernst Brunner)"
+      "_label": "SGV_12 (Ernst Brunner)",
+      "classified_as": [
+        {
+        "id": "http://vocab.getty.edu/aat/300025976",
+        "type": "Type",
+        "_label": "Collection"
+        }
+      ]
     }
   ],
   "subject_of": [
@@ -151,6 +158,10 @@
     ]
   },
   "shows": [
+    {
+      "type": "VisualItem",
+      "_label": "Visual Content of [Menschenmasse und Propellerflugzeuge]"
+    },
     {
       "type": "VisualItem",
       "classified_as": [

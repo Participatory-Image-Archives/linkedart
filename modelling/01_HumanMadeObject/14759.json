@@ -99,8 +99,8 @@
       ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
+  "created_by": {
+    "type": "Creation",
     "_label": "Digitisation of Photograph",
     "used_specific_object": [
       {
@@ -228,46 +228,21 @@
       ]
     }
   ],
-  "representation": [
+  "digitally_available_via": [
     {
-      "type": "VisualItem",
-      "_label": "Digitisation of 14759",
-      "digitally_shown_by": [
+      "type": "DigitalService",
+      "_label": "IIIF Image API",
+      "format": "application/ld+json",
+      "access_point": [
         {
-          "type": "DigitalObject",
-          "format": "image/jpeg",
-          "access_point": [
-            {
-              "id": "https://pia-iiif.dhlab.unibas.ch/SGV_12/SGV_12N_02727.jp2/full/max/0/default.jpg",
-              "type": "DigitalObject"
-            }
-          ],
-          "digitally_available_via": [
-            {
-              "type": "DigitalService",
-              "_label": "IIIF Image API",
-              "format": "application/ld+json",
-              "access_point": [
-                {
-                  "id": "https://pia-iiif.dhlab.unibas.ch/SGV_12/SGV_12N_02727.jp2",
-                  "type": "DigitalObject"
-                }
-              ],
-              "conforms_to": [
-                {
-                  "id": "http://iiif.io/api/image/3/context.json",
-                  "type": "InformationObject"
-                }
-              ]
-            }
-          ],
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/aat/300215302",
-              "type": "Type",
-              "_label": "Digital Image"
-            }
-          ]
+          "id": "https://pia-iiif.dhlab.unibas.ch/SGV_12/SGV_12N_02727.jp2",
+          "type": "DigitalObject"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/image/3/context.json",
+          "type": "InformationObject"
         }
       ]
     }

@@ -1,20 +1,13 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json", 
   "id": "https://linkedart.participatory-archives.ch/object/14759",
-  "type": "HumanMadeObject",
+  "type": "DigitalObject",
   "_label": "[Menschenmasse und Propellerflugzeuge",
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300128359", 
+      "id": "http://vocab.getty.edu/aat/300215302", 
       "type": "Type", 
-      "_label": "Black and White Photograph",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300435443",
-          "type": "Type",
-          "_label": "Type of Work"
-        }
-      ]
+      "_label": "Digital Image"
     }
   ],
   "member_of": [
@@ -191,16 +184,13 @@
     {
       "type": "VisualItem",
       "_label": "Visual Content of [Menschenmasse und Propellerflugzeuge]"
-    },
+    }
+  ],
+  "represents_instance_of_type": [
     {
-      "type": "VisualItem",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300212616",
-          "type": "Type",
-          "_label": "Airplanes"
-        }
-      ]
+      "id": "http://vocab.getty.edu/aat/300212616",
+      "type": "Type",
+      "_label": "Airplanes"
     }
   ],
   "identified_by": [

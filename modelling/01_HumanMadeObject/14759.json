@@ -2,7 +2,7 @@
   "@context": "https://linked.art/ns/v1/linked-art.json", 
   "id": "https://linkedart.participatory-archives.ch/object/14759",
   "type": "DigitalObject",
-  "_label": "[Menschenmasse und Propellerflugzeuge",
+  "_label": "[Menschenmasse und Propellerflugzeuge]",
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/aat/300215302", 

@@ -203,6 +203,13 @@
           "type": "Type",
           "_label": "Owner-Assigned Title"
         }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388344",
+          "type": "Language",
+          "_label": "German"
+        }
       ]
     },
     {
@@ -223,7 +230,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300312355",
           "type": "Type",
-          "_label": "SGV Identifier"
+          "_label": "SGV Signature"
         }
       ]
     },
@@ -234,7 +241,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300404621",
           "type": "Type",
-          "_label": "PIA Identifier"
+          "_label": "PIA ID"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "@context": "https://linked.art/ns/v1/linked-art.json", 
   "id": "https://linkedart.participatory-archives.ch/object/14759",
   "type": "DigitalObject",
-  "_label": "[Menschenmasse und Propellerflugzeuge]",
+  "_label": "PIA ID 14759 - [Menschenmasse und Propellerflugzeuge]",
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/aat/300215302", 
@@ -57,7 +57,7 @@
     },
     {
       "type": "LinguisticObject",
-      "_label": "IIIF Manifest for 14759",
+      "_label": "IIIF Manifest for PIA ID 14759 - [Menschenmasse und Propellerflugzeuge]",
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
@@ -78,7 +78,7 @@
           "identified_by": [
             {
               "type": "Name",
-              "content": "IIIF Manifest for 14759"
+              "content": "IIIF Manifest for PIA ID 14759 - [Menschenmasse und Propellerflugzeuge]"
             }
           ]
         }

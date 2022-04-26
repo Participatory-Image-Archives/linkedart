@@ -49,7 +49,7 @@
           "identified_by": [
             {
               "type": "Name",
-              "content": "SGV Homepage for 14759"
+              "content": "SGV Homepage for PIA ID 14759 - [Menschenmasse und Propellerflugzeuge"
             }
           ]
         }
@@ -61,7 +61,7 @@
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
-          "_label": "IIIF Manifest for 14759",
+          "_label": "IIIF Manifest for PIA ID 14759 - [Menschenmasse und Propellerflugzeuge]",
           "format": "application/ld+json",
           "conforms_to": [
             {
@@ -195,6 +195,17 @@
   ],
   "identified_by": [
     {
+      "type": "Name",
+      "content": "[Menschenmasse und Propellerflugzeuge]",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Owner-Assigned Title"
+        }
+      ]
+    },
+    {
       "type": "Identifier",
       "content": "BC 27",
       "classified_as": [
@@ -210,7 +221,7 @@
       "content": "SGV_12N_02727",
       "classified_as": [
         {
-          "id": "http://vocab.getty.edu/aat/300404621",
+          "id": "http://vocab.getty.edu/aat/300312355",
           "type": "Type",
           "_label": "SGV Identifier"
         }

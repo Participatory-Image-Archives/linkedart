@@ -183,14 +183,14 @@
   "shows": [
     {
       "type": "VisualItem",
-      "_label": "Visual Content of Digital Positive of [Menschenmasse und Propellerflugzeuge]"
-    }
-  ],
-  "represents_instance_of_type": [
-    {
-      "id": "http://vocab.getty.edu/aat/300212616",
-      "type": "Type",
-      "_label": "Airplanes"
+      "_label": "Visual Content of Digital Positive of [Menschenmasse und Propellerflugzeuge]",
+      "represents_instance_of_type": [
+        {
+          "id": "http://vocab.getty.edu/aat/300212616",
+          "type": "Type",
+          "_label": "Airplanes"
+        }
+      ]
     }
   ],
   "identified_by": [

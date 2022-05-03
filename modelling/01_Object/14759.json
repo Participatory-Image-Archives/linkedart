@@ -253,7 +253,7 @@
       "format": "application/ld+json",
       "access_point": [
         {
-          "id": "https://pia-iiif.dhlab.unibas.ch/SGV_12/SGV_12N_02727.jp2/info.json",
+          "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_02727.jp2/info.json",
           "type": "DigitalObject"
         }
       ],

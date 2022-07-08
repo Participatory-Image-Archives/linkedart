@@ -1,5 +1,5 @@
 # PIA Linked Art
-[Linked Art](https://linked.art) Modelling for the for the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project. 
+[Linked Art](https://linked.art) Modelling for the for the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, based on three photographc collections from the Swiss Society for Folkflore Studies (SSFS). 
 
 Linked Art is an application profile for [CIDOC-CRM](https://cidoc-crm.org/) in JSON-LD. 
 
@@ -11,7 +11,7 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 
 | **Linked Art API Endpoints**                                                                                                   | **SGV Data Model (Class)**      | **Relevance to PIA**                                                                                                                                                                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Digital Objects** - Images, services and other digital objects                                                               | `sgv:Object`                    | It will be leveraged and preferred over Physical Objects (for instance for black and white negatives)                                                                                                                                                                                           |
+| **Digital Objects** - Images, services and other digital objects                                                             | `sgv:Object`                    | It will be leveraged and preferred over Physical Objects (for instance for black and white negatives)                                                                                                                                                                                           |
 | **Events** - Events and other non-specific activities that are related but not part of other entities                          | `sgv:Event`                     | A very interesting entity to be used, we need to pinpoint what kind of events are relevant to us as `sgv:Event` is a new class in the SGV Data Model.                                                                                                                                           |
 | **Groups** - Groups and Organizations                                                                                          | `sgv:Agent`                     | It is a mix of Groups, Organizations and People at the moment within the SGV Data Model. Data reconciliation needs to be undertaken.                                                                                                                                                            |
 | **People** - People                                                                                                            | `sgv:Agent`                     | It is a mix of Groups, Organizations and People at the moment within the SGV Data Model. Data reconciliation needs to be undertaken.                                                                                                                                                            |
@@ -27,6 +27,16 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 - SGV_10 Family Kreis Collection - very diverse photographs in terms of materiality (1870-1970)
 - SGV_12 Ernst Brunner Collection - Black and white negatives, cf. [PIA ID 14759 - [Menschenmasse und Propellerflugzeuge]](modelling/01_Object/14759.json)
 
-### Further metadata that could be modelled
+### Further resources that could be modelled
 
 - Concepts/Terms from the [Ernst Brunner Thesaurus](https://vocab.participatory-archives.ch/), currently done in SKOS
+
+## Alignement with the AAT 
+
+A reconciliation effort between controlled terms from the SSFS and the Getty's [Art & Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) (AAT), especially with respect to materiality concepts, is being undertaken. 
+
+For the moment, two (incomplete) CSV are available: 
+
+- [Photo techniques](aat/technology_hasModel.csv)
+- [Object types](aat/objecttype_hasObjecttype))
+

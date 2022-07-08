@@ -1,0 +1,72 @@
+SGV Ontology ID,Technique,Subproperty,AAT_URL,AAT_ID,AAT Label for Linked Art
+H_1175,Negativ,Fototechnik,http://vocab.getty.edu/aat/300127173,300127173,Negative (Photograph)
+H_1177,schwarz/weiss,Negativ,http://vocab.getty.edu/aat/300128343,300128343,Black and White Negative
+H_1179,Gelatinetrockenplatte,schwarz/weiss,http://vocab.getty.edu/aat/300134920,300134920,Gelatin Dry Plate Negative
+H_1183,Nasskollodiumplatte,schwarz/weiss,http://vocab.getty.edu/aat/300134674,300134674,Wet Collodion Negative
+H_1185,Celluloseacetatfilm,schwarz/weiss,,,
+H_1186,Cellulosenitratfilm,schwarz/weiss,http://vocab.getty.edu/aat/300311696,300311696,Cellulose Nitrate Film
+H_1187,Polyesterfilm,schwarz/weiss,http://vocab.getty.edu/aat/300417287,300417287,Polyester Film
+H_1178,farbig,Negativ,http://vocab.getty.edu/aat/300128357,300128357,Colour Negative
+H_1181,Cellusloseacetatfilm-Farbe,farbig,,,
+H_1182,Polyesterfilm-Farbe,farbig,http://vocab.getty.edu/aat/300417287,300417287,Polyester Film
+H_1176,Positiv,Fototechnik,http://vocab.getty.edu/aat/300138191,300138191,Positive (Photograph)
+H_1188,Digitaldruck,Positiv,,,
+H_1194,"Elektrostatische Verfahren (Laser, Xerox)",Digitaldruck,,,
+H_1195,Thermografische Verfahren,Digitaldruck,,,
+H_1196,Inkjet Verfahren,Digitaldruck,,,
+H_1197,Andere Digitaldruckverfahren,Digitaldruck,,,
+H_1189,Farbfotografie,Positiv,,,
+H_1198,Farbrasterverfahren,Farbfotografie,,,
+H_2629,Lumière Autochromplatte,Farbrasterverfahren,http://vocab.getty.edu/aat/300138292,300138292,Autochrome (Photograph)
+H_1199,Chromogener Abzug auf Kunststoff,Farbfotografie,,,
+H_1200,Chromogener Abzug auf Barytpapier,Farbfotografie,,,
+H_1201,Silberfarbstoff-Bleichverfahren (Cibachrome/Ilfochrome),Farbfotografie,,,
+H_1202,Farb-Polaroid (Silber-Diffusionsverfahren),Farbfotografie,,,
+H_1203,Farbdiapositiv (Kodachrome),Farbfotografie,http://vocab.getty.edu/aat/300133430,300133430,Kodachrome
+H_1204,Farbdiapositiv (E6-Verfahren),Farbfotografie,,,
+H_4562,Farbdiapositiv,Farbfotografie,,,
+H_1190,Fotomechanische Verfahren,Positiv,,,
+H_1206,"Heliogravüre (Rotogravüre, Fotogravüre)",Fotomechanische Verfahren,,,
+H_1207,Fotolithographie,Fotomechanische Verfahren,,,
+H_1208,Autotypie (Letterpress Halftone),Fotomechanische Verfahren,,,
+H_2631,Rastertiefdruck,Fotomechanische Verfahren,,,
+H_1209,Lichtdruck (Kollotypie),Fotomechanische Verfahren,,,
+H_1210,Offset,Fotomechanische Verfahren,,,
+H_1211,Woodburytypie,Fotomechanische Verfahren,,,
+H_1212,Andere fotomechanische Verfahren,Fotomechanische Verfahren,,,
+H_1191,Edeldruckverfahren,Positiv,,,
+H_1213,Bromöldruck,Edeldruckverfahren,,,
+H_1214,Bromölumdruck,Edeldruckverfahren,,,
+H_1228,Cyanotypie,Edeldruckverfahren,,,
+H_1229,Gummidruck,Edeldruckverfahren,,,
+H_1230,Kohledruck,Edeldruckverfahren,,,
+H_1231,Ölpigmentdruck,Edeldruckverfahren,,,
+H_1232,Platindruck/Platinotypie,Edeldruckverfahren,http://vocab.getty.edu/aat/300127145,300127145,Platinum Print
+H_1233,Andere Edeldruckverfahren,Edeldruckverfahren,,,
+H_1192,Silberbasierte SW-Verfahren auf Papier,Positiv,,,
+H_2630,Salzpapier,Silberbasierte SW-Verfahren auf Papier,http://vocab.getty.edu/aat/300127149,300127149,Salted Paper Print
+H_1216,Albuminpapier,Silberbasierte SW-Verfahren auf Papier,http://vocab.getty.edu/aat/300127121,300127121,Albumen Print
+H_2724,Crystoleum,Albuminpapier,http://vocab.getty.edu/aat/300266377,300266377,Crystoleum (Photograph)
+H_1217,Silbergelatineabzug DOP auf Barytpapier,Silberbasierte SW-Verfahren auf Papier,,,
+H_1218,Silbergelatineabzug DOP auf Kunststoff,Silberbasierte SW-Verfahren auf Papier,,,
+H_1219,Silbergelatineabzug POP,Silberbasierte SW-Verfahren auf Papier,http://vocab.getty.edu/aat/300128695,300128695,Gelatin Silver Print
+H_1220,Kollodiumabzug matt (gold-/platingetont),Silberbasierte SW-Verfahren auf Papier,,,
+H_1221,Kollodiumabzug glanz,Silberbasierte SW-Verfahren auf Papier,,,
+H_1223,SW-Polaroid (Silber-Diffusionsverfahren),Silberbasierte SW-Verfahren auf Papier,,,
+H_1235,SW-Diapositiv auf Glas,Positiv,,,
+H_1236,koloriert,SW-Diapositiv auf Glas,,,
+H_1237,SW-Diapositiv auf Film,Positiv,,,
+H_1193,Unikatverfahren,Positiv,,,
+H_1225,Ambrotypie,Unikatverfahren,,,
+H_1226,Daguerreotypie,Unikatverfahren,http://vocab.getty.edu/aat/300127181,300127181,Daguerreotype
+H_1227,Ferrotypie,Unikatverfahren,,,
+H_2623,Pannotypie,Unikatverfahren,,,
+H_5296,Andere Druckverfahren,Positiv,,,
+H_5297,Film,Fototechnik,,,
+H_5304,"16mm, schwarz/weiss, stumm",Film,,,
+H_5308,"16mm, schwarz/weiss und farbig, Magnetton",Film,,,
+H_5307,"16mm, schwarz/weiss, Magnetton",Film,,,
+H_5309,"16mm, farbig, Magnetton",Film,,,
+H_5310,"16mm, farbig, Lichtton",Film,,,
+H_5314,"HDV, farbig",Film,,,
+H_5315,"Digital (XDCAM), farbig",Film,,,

@@ -38,5 +38,5 @@ A reconciliation effort between controlled terms from the SSFS and the Getty's [
 For the moment, two (incomplete) CSV are available: 
 
 - [Photo techniques](aat/technology_hasModel.csv)
-- [Object types](aat/objecttype_hasObjecttype)
+- [Object types](aat/objecttype_hasObjecttype.csv)
 

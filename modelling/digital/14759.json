@@ -246,6 +246,13 @@
       ]
     }
   ],
+  "access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_02727.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
+    }
+  ],
   "digitally_available_via": [
     {
       "type": "DigitalService",

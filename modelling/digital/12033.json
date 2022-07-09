@@ -87,7 +87,7 @@
   ],
   "current_owner": [
     {
-      "id": "https://linkedart.participatory-archives.ch/agent/42",
+      "id": "https://linkedart.participatory-archives.ch/group/42",
       "type": "Group",
       "_label": "SGV Fotoarchiv",
       "classified_as": [
@@ -262,6 +262,13 @@
           "_label": "PIA ID"
         }
       ]
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://sipi.participatory-archives.ch/SGV_12/SGV_12N_00001.jp2/full/max/0/default.jpg",
+      "type": "DigitalObject",
+      "_label": "Image in full resolution"
     }
   ],
   "digitally_available_via": [

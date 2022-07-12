@@ -31,7 +31,7 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 
 ## Data reconciliation
 
-### Alignement with the AAT 
+### Alignement with the AAT 
 
 A reconciliation effort between controlled terms from the SSFS and the Getty's [Art & Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) (AAT), especially with respect to materiality concepts, is being undertaken. 
 

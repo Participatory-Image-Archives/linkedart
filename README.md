@@ -28,12 +28,22 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 
 - Concepts/Terms from the [Ernst Brunner Thesaurus](https://vocab.participatory-archives.ch/), currently done in SKOS
 
-## Alignement with the AAT 
+## Mappings
+
+[Mappings](mapping/mappings.md) between the old SSFS Data Model (hosted on Salsah), the upcoming SSFS Data Model (hosted on DaSCH Service Platform), Schema.org, the PIA JSON API and Linked Art are being documented in this GitHub Repository as well. 
+
+## Data reconciliation
+
+### Alignement with the AAT 
 
 A reconciliation effort between controlled terms from the SSFS and the Getty's [Art & Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) (AAT), especially with respect to materiality concepts, is being undertaken. 
 
 For the moment, two (incomplete) CSV are available: 
 
-- [Photo techniques](aat/technology_hasModel.csv)
-- [Object types](aat/objecttype_hasObjecttype.csv)
+- [Photo techniques](reconciliation/aat/technology_hasModel.csv)
+- [Object types](reconciliation/aat/objecttype_hasObjecttype.csv)
+
+### Reconciliation of Agent-related (organisations, groups, people) records 
+
+TBD
 

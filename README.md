@@ -40,7 +40,7 @@ For the moment, two (incomplete) CSV are available:
 - [Photo techniques](reconciliation/aat/technology_hasModel.csv)
 - [Object types](reconciliation/aat/objecttype_hasObjecttype.csv)
 
-### Reconciliation of Agent-related (organisations, groups, people) records 
+### Reconciliation of Agent-related records (organisations, groups, people)  
 
 TBD
 

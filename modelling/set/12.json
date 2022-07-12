@@ -1,0 +1,41 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://linkedart.participatory-archives.ch/set/12",
+    "type": "Set",
+    "_label": "SGV_12 (Ernst Brunner)",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300025976",
+        "type": "Type",
+        "_label": "Collection"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "content": "Ernst Brunner"
+      },
+      {
+        "type": "Identifier",
+        "content": "SGV_12",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300312355",
+            "type": "Type",
+            "_label": "SGV Signature"
+          }
+        ]
+      },
+      {
+        "type": "Identifier",
+        "content": "13",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404621",
+            "type": "Type",
+            "_label": "PIA ID"
+          }
+        ]
+      }
+    ]
+}

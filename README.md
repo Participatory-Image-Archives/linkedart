@@ -22,7 +22,7 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 | **Textual Works** - Texts worthy of description as distinct entities, such as the content carried by a book or journal article | `/text/`       | None                            | It could be used for the Atlas of Swiss Folklore (SGV_05) as well as for journals referencing photos taken by Ernst Brunner (SGV_12). For the latter, we don't have the data and metadata so it could be quite complex to retrieve those pieces of (meta)information.                                                                           |
 | **Visual Works** - Image content worthy of description as distinct entities, such as the image shown by a painting or drawing  | `/visual/`     | None                            | It isn't planned to be leveraged as `VisualItem` are embedded within `DigitalObject` serialisations                                                                                                                                                                                                                                             |
 
-*NB: The content found in [01_Object](modelling/01_Object/) were the first data modelling attempts.* 
+*NB: The content found in [01_Object](modelling/01_Object/) were the first data modelling attempts and are kept for documentation purposes.* 
 
 ### Further resources that could be modelled
 

@@ -1,0 +1,111 @@
+Old SGV properties and classes,Was used in classes,Change to new data model,Amended and new SGV properties and classes,Will be used in classes,EN,DE,FR,IT,Mapping to external vocabularies (mainly Schema.org),PIA JSON API Endpoint,PIA JSON API Path, Linked Art Property/Class/Pattern (CIDOC-CRM)
+hasSignature,"Image, Film, Tonbildschau, Album, Collection",TRUE,hasSignature,"Collection, Object",Signature,Signatur,Cote,Segnatura,schema:identifier,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.signature,"identfied_by (P1) - type:""Identifier"""
+hasTitle,"Image, Film, Tonbildschau, Sequence, Album, Collection",TRUE,hasTitle,"Collection, Dataset, Object, Sequence",Title,Titel,Titre,Titolo,schema:name,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.title,"identfied_by (P1) - type:""Name"""
+hasDate,"Image, Film, Tonbildschau, Album, Collection",TRUE,hasDate,"Collection, Object, Event",Date,Datum,Date,Data,schema:temporal,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.date,produced_by (P108i) > timespan (P4)
+hasGeography,"Image, Film",TRUE,hasPlace,"Object, Event",Place,Ort ,Lieu,Luogo,schema:location,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.label,produced_by (P108i) > took_place_at (P7)        
+hasPerson,"Image, Film, Album",TRUE,hasCreator,"Object, Dataset, Collection","Producer/
+Collector","HerstellerIn/
+SammlerIn","Auteur/
+collectionneur-trice","Autore/
+collezionista",schema:creator,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/agents,$.data.[attributes].name,produced_by (P108i) > carried_out_by (P14)
+hasContent,"Image, Film, Sequence",TRUE,isRepresentationOf,"Object, Dataset, Sequence",Depicted persons/institutions,"Abgebildete 
+Personen/Institutionen",Personnes/Institutions représentées,Persone/Istituzioni rappresentate,edm:isRepresentationOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/agents,$.data.[attributes].name,
+hasSubject,Image,TRUE,hasKeywords,"Object, Dataset, Collection",Keywords,Schlagworte,Mots-clés,Parola chiave,schema:keywords,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/keywords,$.data.[attributes].label,
+hasTag,"Image, Film",TRUE,hasConcept,"Object, Dataset, Collection, Event",Concept,Konzepte,Concept,Concetto,schema:about,The endpoint not yet deployed,,"shows (P65), digitally_shows > represents_instance_of_type (P199)"
+hasComment,"Image, Film, Album, Collection, Persons",TRUE,hasComment,"Collection, Object, Agent",Comments,Kommentare,Commentaires,Commentaires,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/comments,$.data.[attributes].comment,referred_to_by (P67i)
+hasOldnr,"Image, Film",TRUE,hasOldNr,Object,Former identifier,Alte Nummer,Ancien identifiant,Vecchia segnatura,schema:identifier,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.oldnr,"identfied_by (P1) - type:""Identifier"""
+hasIn_collection,"Image, Film, Album",TRUE,hasCollection,"Object, Dataset",Is part of,Teil von,Fait partie de,È parte di,schema:isPartOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/collections,$.data.[attributes].label,member_of 
+hasPart_of,Image,TRUE,isPartOf,Object,Is part of,Teil von,Fait partie de,È parte di,schema:isPartOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasObjecttype,"Image, Film, Album",TRUE,hasObjectType,Object,Type of object,Objekttyp,Type d'objet,Tipologia di obiettivo,schema:material,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/people,The endpoint doesn't work yet,classified_as (P2)
+hasModel,"Image, Film",TRUE,hasMedium,Object,Technique / Medium,Vorlage,Technique / Media,Supporto,schema:artMedium,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/people,The endpoint doesn't work yet,classified_as (P2)
+hasFormat,Image,TRUE,hasFormat,Object,Format,Format,Format,Formato,schema:size,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/people,The endpoint doesn't work yet,dimension (P43)
+hasCopyright,"Image, Film",TRUE,hasCopyrightHolder,"Object, Dataset, Collection",Copyright,Copyright,Droits d'auteur,Dritti d'autore,schema:copyrightHolder,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasRef_img,Image,TRUE,isVisuallySimilarTo,Object,Visually similar pictures,Ähnliche Bilder,Images semblables,Immagini simili,edm:isRelatedTo,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasGeography_old,Image,TRUE,,,,,,,,,,
+hasOnalbumpage,Image,TRUE,,,,,,,,,,
+hasInalbum,Image,TRUE,isPartOf,,,,,,,,,
+hasverso,Image,TRUE,hasVerso,Object,Verso,Verso,Verso,Verso,edm:isRelatedTo,https://data.participatory-archives.ch/api/v1/images/<id>/verso,The endpoint doesn't work yet,
+hasSeqnum,Image,TRUE,hasSeqNr,Object,Sequence number,Sequenznummer,Numéro de séquence,Numero di scala,,,,
+hasName,"Persons, Subject",TRUE,hasName,"Agent, Event",Name,Name,Nom,Nome,schema:name,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.name,"identfied_by (P1) - type:""Name"""
+hasDescription_rt,"Subject, Sequence, Album, Collection",TRUE,hasDescription,"Concept, Sequence, Collection, Object, Dataset, Agent, Event",Description,Beschreibung,Description,Descrizione,schema:description,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.description,
+hasFamily,Persons,TRUE,hasFamily,Agent,Family Member,Familienmitglied,Membre de la famille,Membro della famiglia,schema:relatedTo,https://data.participatory-archives.ch/api/v1/agents/<id>,$.data.attributes.family,
+hasJob,Persons,TRUE,hasJobTitle,Agent,Job title,Ausbildung/Beruf,Profession,,schema:jobTitle,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+hasBirthdate,Persons,TRUE,hasBirthDate,Agent,Birth date,geboren/gegründet am,Date de naissance,Data di nascita,schema:birthDate,https://data.participatory-archives.ch/api/v1/agents/<id>,,born (P98i) > timespan (P4) 
+hasBirthplace,Persons,TRUE,hasBirthPlace,Agent,Birth place,geboren/gegründet in,Lieu de naissance,Luogo di nascita,schema:birthPlace,https://data.participatory-archives.ch/api/v1/agents/<id>,,born (P98i) > took_place_at (P7) 
+hasBirthplace_old,Persons,TRUE,hasBirthPlaceOld,,,,,,,,,
+hasDeathdate,Persons,TRUE,hasDeathDate,Agent,Death date,verstorben/aufgelöst am,Date de mort,Data di morte,schema:deathDate,https://data.participatory-archives.ch/api/v1/agents/<id>,,died (P100i) > timespan (P4)
+hasDeathplace,Persons,TRUE,hasDeathPlace,Agent,Death place,verstorben/aufgelöst in,Lieu de mort,Luogo di morte,schema:deathPlace,https://data.participatory-archives.ch/api/v1/agents/<id>,,died (P100i) > took_place_at (P7) 
+hasDeathplace_old,Persons,TRUE,hasDeathPlaceOld,,,,,,,,,
+hasLiterature,"Persons, Collection",TRUE,hasLiterature,"Agent, Collection",Literature,Literatur,Littérature,,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/literatures,,
+hasIndexing_rt,"Album, Collection",TRUE,hasIndexing,"Object, Collection",Indexing notes,Erschliessungsprotokoll,Notes de catalogage et d'indexation,,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasRestoration,Collection,TRUE,hasRestoration,"Collection, Object",Restoration notes,Restaurierungsprotokoll,Notes de conservation et restauration,,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasStandorte,Collection,TRUE,hasArchiveLocation,"Collection, Object, Dataset",Archive location,Standortverwaltung,Lieu de conservation,,schema:spatial,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasDefault_image,Collection,TRUE,hasDefaultImage,Collection,Example image,Bildverknüpfung,Image témoin,,schema:workExample,https://data.participatory-archives.ch/api/v1/collections/<id>/,$.data.attributes.default_image,
+hasEmbedded_video,Collection,TRUE,hasEmbeddedVideo,Collection,Embedded video,Eingebettes Video,Vidéo embarquée,Video incorporato,schema:workExample,https://data.participatory-archives.ch/api/v1/collections/<id>/,$.data.attributes.embedded_video,
+hascomment_rt,Tonbildschau,TRUE,hasComment,,,,,,,,,
+hasLang,Film,TRUE,isInLanguage,Object,Language,Sprache,Langue,,schema:inLanguage,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasDuration,Film,TRUE,hasDuration,Object,Duration,Dauer,Durée,,schema:duration,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasFps,Film,TRUE,hasFps,Object,Frames per second,Bildfrequenz,Images par seconde,Frequenza dei fotogrammi,ebucore:frameRate,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+hasInterval,Sequence,TRUE,hasInterval,Sequence,Time Interval,Zeit Intervall,Temps d'intervalle,,,,,
+hasFilmres,Sequence,TRUE,describesSequenceOf,Sequence,Describes the sequence of,Teil von,Fait partie de,È parte di,schema:isPartOf,,,
+,,,hasPlace,"Object, Dataset, Collection",Place,Ort,Lieu,Luogo,schema:spatial,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasPart,"Object, Dataset, Collection",has part(s),Besteht aus,Est composé-e de,È composto da,schema:hasPart,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,recordedAt,"Object, Dataset, Collection",recorded at,aufgezeichnet bei,enregistré à,,schema:recordedAt,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasContributor,"Object, Dataset, Collection, Event",Contributor,Beitragende,Contributeur,Contributore,schema:contributor,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasPiaUrl,"Object, Dataset, Collection, Agent, Place, Event, Concept",PIA URL,PIA URL,PIA URL,PIA URL,schema:url,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.id,"identfied_by (P1) - type:""Identifier"""
+,,,hasCreativeWorkStatus,"Object, Dataset, Collection",Creative Work Status,Objektstatus,Statut de l'objet,Stato dell'oggetto,schema:CreativeWorkStatus,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasEventStatus,Event,Event Status,Status des Events,Statut de l'événement,Stato dell'evento,schema:eventStatus,The endpoint not yet deployed,,
+,,,hasOrganizer,Event,Organizer,VeranstalterIn,Organisateur/Organisatrice,Organizzatore,schema:organizer,The endpoint not yet deployed,,
+,,,relatedTo,Agent,Related to (Agent),Relativ zu,Relatif à,,schema:relatedTo,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,isMemberOf,Agent,Member of,Mitglied von,Membre de,,schema:memberOf,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasEmployee,Agent,Employee(s),Mitarbeiter,Employé-e-s,,schema:employee,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasChildren,Agent,Children,Kinder,Enfant(s),Bambini,schema:children,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasParent,Agent,Parent,Eltern,Parent(s),Genitore/Genitori,schema:parent,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasSpouse,Agent,Spouse,EhepartnerIn,Conjoint-e,Coniuge,schema:spouse,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasSibling,Agent,Sibling(s),Geschwister,Frère(s) et sœur(s),Fratelli e sorelle,schema:sibling,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasColleague,Agent,Colleague(s),Kolleginnen und Kollegen,Collègues,Colleghi,schema:colleague,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,knows,Agent,knows,kennt,connaît,,schema:knows,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,performerIn,Agent,has performed at the event,ist bei dem Event aufgetreten,s'est produit-e lors de l'événement,,schema:performerIn,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,isLocated,Agent,Organisation's headquarters,Hauptsitz der Organisation,Siège de l'organisation,Sede dell'organizzazione,schema:location,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasGivenName,Agent,Given Name,Vorname,Prénom,Nome,schema:givenName,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasFamilyName,Agent,Family Name,Familienname,Nom de famille,Cognome,schema:familyName,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasNationality,Agent,Nationality,Nationalität,Nationalité,Nazionalità,schema:nationality,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,hasPrefLabel,Concept,Preferred label,Bevorzugtes Label,Terme préféré/retenu,,skos:prefLabel,The endpoint not yet deployed,,
+,,,hasAltLabel,Concept,Alternative label,Alternatives Label,Terme non descripteur (rejeté),,skos:altLabel,The endpoint not yet deployed,,
+,,,hasScopeNote,Concept,Scope note,,,,skos:scopeNote,The endpoint not yet deployed,,
+,,,hasBroaderConcept,Concept,Broader concept,,,,skos:broader,The endpoint not yet deployed,,
+,,,hasNarrowerConcept,Concept,Narrower concept,,,,skos:narrower,The endpoint not yet deployed,,
+,,,inScheme,Concept,in Scheme,,,,skos:inScheme,The endpoint not yet deployed,,
+,,,topConceptOf,Concept,is a top concept of,,,,skos:topConceptOf,The endpoint not yet deployed,,
+,,,hasCloseMatch,Concept,Close match,,,,skos:closeMatch,The endpoint not yet deployed,,
+,,,hasRelatedConcept,Concept,has related concept,Verwandtes Konzept,Terme associé,,skos:related,The endpoint not yet deployed,,
+,,,hasSubEvent,Event,has as sub-event(s),hat als Subevent(s),a comme sous-événement(s),,schema:subEvent,The endpoint not yet deployed,,
+,,,hasSuperEvent,Event,is part of the event,ist Teil des Events,fait partie de l'événement,,schema:superEvent,The endpoint not yet deployed,,
+,,,hasEventType,Event,Event Type,Art des Events,Type d'événement,,,The endpoint not yet deployed,,
+,,,recordedIn,Event,Recorded object,Aufgezeichnete Objekte,Objet(s) répertorié(s),,schema:recordedIn,The endpoint not yet deployed,,
+,,,hasWorkFeatured,Event,Work featured,Vorgestelltes Werk,Objets présentés,,schema:workFeatured,The endpoint not yet deployed,,
+,,,hasDataset,Object,Dataset,Datensatz,Set de données,,schema:isPartOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,sameAs,"Concept, Agent",Same as,Gleiche Ressource,Ressource similaire,,schema:sameAs,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,equivalent
+,,,relatedLink,"Object, Dataset, Collection","Related link (IIIF Manifest, IIIF Image, SGV Website)",Zugehöriger Link,Lien apparenté,,schema:relatedLink,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,"$.data.links.[manifest,related]","IIIF Manifest/External websites: subject_of (P129i) > digitally_carried_by, 
+HMO/IIIF Image: representation > digitally_shown_by > access_point + digitally_available_via
+DigitalObject/IIIF Image: access_point"
+,,,hasLicense,"Object, Dataset",License,Lizenz,Licence,,schema:license,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasAdditionalType,Agent,Additional Type,Zusätzlicher Typ,Type additionnel,,schema:additionalType,https://data.participatory-archives.ch/api/v1/agents/<id>,,
+,,,isSubjectOf,"Concept, Agent",Subject Of,Subjekt von,Sujet de,,schema:subjectOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasImageRepresentation,Object,has Representation ,hat Repräsentation,a comme représentation,ha come rappresentazione,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasAudioRepresentation,Object,has Representation ,hat Repräsentation,a comme représentation,ha come rappresentazione,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,,hasMovingImageRepresentation,Object,has Representation ,hat Repräsentation,a comme représentation,ha come rappresentazione,,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+sgv:Image,,TRUE,sgv:Object (will be deprecated),,Image,Bild,Image,Immagine,,,,
+sgv:Film,,TRUE,sgv:Object (will be deprecated),,Film,Film,Film,Film,,,,
+sgv:Collection,,TRUE,sgv:Collection,,Collection,Sammlung,Collection,Collezione,schema:Collection,https://data.participatory-archives.ch/api/v1/collections/<id>,,Set
+sgv:Album,,TRUE,sgv:Object (will be deprecated),,Album,Album,Album,Album,schema:CreativeWork,,,
+sgv:Persons,,TRUE,sgv:Agent,,Agent,Agent,Agent,Agente,dct:Agent,https://data.participatory-archives.ch/api/v1/agents/<id>,,"Person (E21), Group (E74)"
+sgv:Subject,,TRUE,sgv:Concept,,Concept,Konzepte,Concept,Concetto,skos:Concept,The endpoint not yet deployed,,
+sgv:Tonbildschau,,TRUE,sgv:Object (will be deprecated),,Audio-visual show,Tonbildschau,Diaporama,Spettacolo audiovisivo,,,,
+sgv:Sequence,,TRUE,sgv:Sequence,,Sequence,Sequenz,Séquence,Sequenza,,,,LinguisticObject (E33)
+,,,sgv:Object,,Object,Objekt,Objet,Oggetto,schema:CreativeWork,https://data.participatory-archives.ch/api/v1/images/<id>,,"DigitalObject (D1), HumanMadeObject (E22)"
+,,,sgv:Event,,Event,Event,Evénement,Evento,schema:Event,The endpoint not yet deployed,,Activity (E7)
+,,,sgv:Dataset,,Dataset,Datensatz,Set de données,Dataset,schema:Dataset,The endpoint not yet deployed,,Set
+,,,sgv:ImageRepresentation,,Image,Bild,Image,Immagine,kb:StillImageRepresentation,,,
+,,,sgv:AudioRepresentation,,Audio,Audio,Audio,Audio,kb:AudioRepresentation,,,
+,,,sgv:MovingImageRepresentation,,Moving Images,Bewegte Bilder,Images en mouvement,Immagine in movimento,kb:MovingImageRepresentation,,,

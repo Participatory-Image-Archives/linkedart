@@ -27,7 +27,7 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 
 ## Mappings
 
-[Mappings](mapping/mappings.md) between the old SSFS Data Model (hosted on Salsah), the upcoming SSFS Data Model (hosted on DaSCH Service Platform), Schema.org, the PIA JSON API and Linked Art are being documented in this GitHub Repository as well. 
+[Mappings](mapping/README.md) between the old SSFS Data Model (hosted on Salsah), the upcoming SSFS Data Model (hosted on DaSCH Service Platform), Schema.org, the PIA JSON API and Linked Art are being documented in this GitHub Repository as well. 
 
 ## Data reconciliation
 

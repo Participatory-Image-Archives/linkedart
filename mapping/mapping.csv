@@ -16,9 +16,9 @@ hasComment,"Image, Film, Album, Collection, Persons",hasComment,"Collection, Obj
 hasOldnr,"Image, Film",hasOldNr,Object,Former identifier,Alte Nummer,Ancien identifiant,Vecchia segnatura,schema:identifier,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,$.data.attributes.oldnr,"identfied_by (P1) - type:""Identifier"""
 hasIn_collection,"Image, Film, Album",hasCollection,"Object, Dataset",Is part of,Teil von,Fait partie de,È parte di,schema:isPartOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/collections,$.data.[attributes].label,member_of 
 hasPart_of,Image,isPartOf,Object,Is part of,Teil von,Fait partie de,È parte di,schema:isPartOf,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
-hasObjecttype,"Image, Film, Album",hasObjectType,Object,Type of object,Objekttyp,Type d'objet,Tipologia di obiettivo,schema:material,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/people,The endpoint doesn't work yet,classified_as (P2)
-hasModel,"Image, Film",hasMedium,Object,Technique / Medium,Vorlage,Technique / Media,Supporto,schema:artMedium,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/people,The endpoint doesn't work yet,classified_as (P2)
-hasFormat,Image,hasFormat,Object,Format,Format,Format,Formato,schema:size,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/people,The endpoint doesn't work yet,dimension (P43)
+hasObjecttype,"Image, Film, Album",hasObjectType,Object,Type of object,Objekttyp,Type d'objet,Tipologia di obiettivo,schema:material,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/object-types,The endpoint doesn't work yet,classified_as (P2)
+hasModel,"Image, Film",hasMedium,Object,Technique / Medium,Vorlage,Technique / Media,Supporto,schema:artMedium,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/model-types,The endpoint doesn't work yet,classified_as (P2)
+hasFormat,Image,hasFormat,Object,Format,Format,Format,Formato,schema:size,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/formats,The endpoint doesn't work yet,dimension (P43)
 hasCopyright,"Image, Film",hasCopyrightHolder,"Object, Dataset, Collection",Copyright,Copyright,Droits d'auteur,Dritti d'autore,schema:copyrightHolder,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
 hasRef_img,Image,isVisuallySimilarTo,Object,Visually similar pictures,Ähnliche Bilder,Images semblables,Immagini simili,edm:isRelatedTo,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
 hasGeography_old,Image,,,,,,,,,,
@@ -48,7 +48,8 @@ hasDuration,Film,hasDuration,Object,Duration,Dauer,Durée,,schema:duration,https
 hasFps,Film,hasFps,Object,Frames per second,Bildfrequenz,Images par seconde,Frequenza dei fotogrammi,ebucore:frameRate,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
 hasInterval,Sequence,hasInterval,Sequence,Time Interval,Zeit Intervall,Temps d'intervalle,,,,,
 hasFilmres,Sequence,describesSequenceOf,Sequence,Describes the sequence of,Teil von,Fait partie de,È parte di,schema:isPartOf,,,
-,,hasPlace,"Object, Dataset, Collection",Place,Ort,Lieu,Luogo,schema:spatial,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
+,,hasASVplace,Object,,,,,,,,
+,,hasASVquestion,Object,,,,,,,,
 ,,hasPart,"Object, Dataset, Collection",has part(s),Besteht aus,Est composé-e de,È composto da,schema:hasPart,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
 ,,recordedAt,"Object, Dataset, Collection",recorded at,aufgezeichnet bei,enregistré à,,schema:recordedAt,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,
 ,,hasContributor,"Object, Dataset, Collection, Event",Contributor,Beitragende,Contributeur,Contributore,schema:contributor,https://data.participatory-archives.ch/api/v1/<endpoint>/<id>/,,

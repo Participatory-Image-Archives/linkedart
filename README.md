@@ -25,6 +25,10 @@ Below are the boilerplates that are needed within the PIA Data Model in accordan
 
 *NB: The content found in [01_Object](modelling/01_Object/) are the first data modelling attempts in Linked Art and are kept for documentation purposes.* 
 
+Below is an high-level overview of the PIA Linked Art Model
+
+![](assets/pia_linkedartmodel.svg)
+
 ## Mappings
 
 [Mappings](mapping/README.md) between the old SSFS Data Model (hosted on Salsah), the upcoming SSFS Data Model (hosted on DaSCH Service Platform), Schema.org, the PIA JSON API and Linked Art are being documented in this GitHub Repository as well. 

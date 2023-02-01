@@ -1,8 +1,8 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json", 
-  "id": "https://linkedart.participatory-archives.ch/object/60",
+  "id": "https://data.participatory-archives.ch/object/220133.json",
   "type": "HumanMadeObject",
-  "_label": "PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+  "_label": "PIA ID 220133 - [Porträt von Emilie Kreis-Martz]",
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/aat/300127121", 
@@ -31,7 +31,7 @@
   ],
   "member_of": [
     {
-      "id": "https://linkedart.participatory-archives.ch/set/10",
+      "id": "https://data.participatory-archives.ch/set/10.json",
       "type": "Set",
       "_label": "SGV_10 (Familie Kreis)",
       "classified_as": [
@@ -68,7 +68,7 @@
           "identified_by": [
             {
               "type": "Name",
-              "content": "SGV Homepage for PIA ID 60 - [Porträt von Emilie Kreis-Martz]"
+              "content": "SGV Homepage for PIA ID 220133 - [Porträt von Emilie Kreis-Martz]"
             }
           ]
         }
@@ -76,11 +76,11 @@
     },
     {
       "type": "LinguisticObject",
-      "_label": "IIIF Manifest for PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+      "_label": "IIIF Manifest for PIA ID 220133 - [Porträt von Emilie Kreis-Martz]",
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
-          "_label": "IIIF Manifest for PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+          "_label": "IIIF Manifest for PIA ID 220133 - [Porträt von Emilie Kreis-Martz]",
           "format": "application/ld+json",
           "conforms_to": [
             {
@@ -90,14 +90,14 @@
           ],
           "access_point": [
             {
-              "id": "https://iiif.participatory-archives.ch/60/manifest.json",
+              "id": "https://iiif.participatory-archives.ch/SGV_10P_00060/manifest.json",
               "type": "DigitalObject"
             }
           ],
           "identified_by": [
             {
               "type": "Name",
-              "content": "IIIF Manifest for PIA ID 60 - [Porträt von Emilie Kreis-Martz]"
+              "content": "IIIF Manifest for PIA ID 220133 - [Porträt von Emilie Kreis-Martz]"
             }
           ]
         }
@@ -106,7 +106,7 @@
   ],
   "current_owner": [
     {
-      "id": "https://linkedart.participatory-archives.ch/agent/42",
+      "id": "https://data.participatory-archives.ch/group/42.json",
       "type": "Group",
       "_label": "SGV Fotoarchiv",
       "classified_as": [
@@ -140,14 +140,14 @@
     },
     "took_place_at": [
       {
-        "id": "https://linkedart.participatory-archives.ch/place/3",
+        "id": "https://data.participatory-archives.ch/place/3.json",
         "type": "Place",
         "_label": "Basel"
       }
     ],
     "carried_out_by": [
       {
-        "id": "https://linkedart.participatory-archives.ch/group/17",
+        "id": "https://data.participatory-archives.ch/group/17.json",
         "type": "Group",
         "_label": "Atelier Kling-Jenny"
       }
@@ -193,7 +193,7 @@
       "_label": "Visual Content of [Porträt von Emilie Kreis-Martz]",
       "represents": [
         {
-          "id": "https://linkedart.participatory-archives.ch/person/17",
+          "id": "https://data.participatory-archives.ch/person/17.json",
           "type": "Person",
           "_label": "Emilie Kreis-Martz"
         }
@@ -245,7 +245,7 @@
   "representation": [
     {
       "type": "VisualItem",
-      "_label": "Digital surrogate of PIA ID 60 - [Porträt von Emilie Kreis-Martz]",
+      "_label": "Digital surrogate of PIA ID 220133 - [Porträt von Emilie Kreis-Martz]",
       "digitally_shown_by": [
         {
           "type": "DigitalObject",

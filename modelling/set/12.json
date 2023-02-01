@@ -1,6 +1,6 @@
 {
     "@context": "https://linked.art/ns/v1/linked-art.json",
-    "id": "https://linkedart.participatory-archives.ch/set/12",
+    "id": "https://data.participatory-archives.ch/set/12.json",
     "type": "Set",
     "_label": "SGV_12 (Ernst Brunner)",
     "classified_as": [

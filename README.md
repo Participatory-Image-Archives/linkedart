@@ -1,5 +1,5 @@
 # PIA Linked Art
-[Linked Art](https://linked.art) Modelling for the for the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, based on three photographc collections from the Swiss Society for Folkflore Studies (SSFS / _Schweizerische Gesellschaft für Volkskunde, SGV_). 
+[Linked Art](https://linked.art) Modelling for the for the Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) research project, based on three photographc collections from the Swiss Society for Folkflore Studies (SSFS / _Schweizerische Gesellschaft für Volkskunde, SGV_). The PIA Linked Art API will be accessible at https://data.participatory-archives.ch.
 
 Linked Art is an application profile for [CIDOC-CRM](https://cidoc-crm.org/) in JSON-LD. 
 

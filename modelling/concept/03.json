@@ -1,0 +1,31 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json", 
+    "id": "https://data.participatory-archives.ch/concept/03.json",
+    "type": "Type",
+    "_label": "Arbeit",
+    "identified_by": [
+        {
+          "type": "Name",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300404670",
+              "type": "Type",
+              "_label": "Primary Name"
+            }
+          ],
+          "content": "Arbeit"
+        }
+      ],
+    "member_of": [
+        {
+          "type": "Set",
+          "_label": "Ernst Brunner Thesaurus"
+        }
+      ],    
+    "equivalent": [
+        {
+          "id": "https://n2t.net/ark:/19156/tkt42/03",
+          "type": "Type"
+        }
+    ]
+  }
